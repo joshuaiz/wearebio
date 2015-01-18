@@ -1,0 +1,977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-21 12:01-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mark Southard <mbsatunc@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16 ../index.php:55 ../single.php:52 ../template-archives.php:68
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: ../404.php:20 ../index.php:59 ../single.php:56 ../template-archives.php:72
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../archive.php:29
+#, php-format
+msgid "All posts in: %s"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "All posts tagged: %s"
+msgstr ""
+
+#: ../archive.php:35 ../archive.php:38 ../archive.php:41
+#, php-format
+msgid "Archive for: %s"
+msgstr ""
+
+#: ../archive.php:44
+#, php-format
+msgid "All posts by: %s"
+msgstr ""
+
+#: ../archive.php:47
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:69 ../content-image.php:13 ../content-portfolio.php:41
+#: ../content-quote.php:19 ../content.php:13 ../index.php:31
+#: ../loop-portfolio.php:19 ../search.php:34
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../archive.php:91
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: ../archive.php:93
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: ../archive.php:96
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: ../archive.php:98
+msgid "No posts found."
+msgstr ""
+
+#: ../comments.php:28
+msgid "0 Comments"
+msgstr ""
+
+#: ../comments.php:28
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:28
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: ../comments.php:51
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:78
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:82
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:84
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-image.php:13 ../content.php:13
+msgid "Continue Reading"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:91
+msgid "Primary sidebar."
+msgstr ""
+
+#: ../functions.php:99
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: ../functions.php:154
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:204
+msgid "All"
+msgstr ""
+
+#: ../functions.php:271 ../functions.php:309 ../page.php:24
+#: ../template-contact.php:101 ../template-full-width.php:26
+msgid "edit"
+msgstr ""
+
+#: ../functions.php:300
+msgid "By"
+msgstr ""
+
+#: ../functions.php:302
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../functions.php:338
+msgid "Older Posts"
+msgstr ""
+
+#: ../functions.php:342
+msgid "Newer Posts"
+msgstr ""
+
+#: ../functions.php:379
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> "
+msgstr ""
+
+#: ../functions.php:379
+msgid "(Author)"
+msgstr ""
+
+#: ../functions.php:382
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:382
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:389
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:494
+msgid "Previous"
+msgstr ""
+
+#: ../functions.php:495
+msgid "Next"
+msgstr ""
+
+#: ../header.php:87
+msgid "Powered by"
+msgstr ""
+
+#: ../page.php:32 ../single.php:30 ../template-archives.php:27
+#: ../template-full-width.php:34
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:15
+msgid "Search Results for"
+msgstr ""
+
+#: ../search.php:55
+msgid "Your search did not match any entries"
+msgstr ""
+
+#: ../search.php:63
+msgid "Suggestions:"
+msgstr ""
+
+#: ../search.php:65
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: ../search.php:66
+msgid "Try different keywords."
+msgstr ""
+
+#: ../search.php:67
+msgid "Try more general keywords."
+msgstr ""
+
+#: ../searchform.php:11
+msgid "Search..."
+msgstr ""
+
+#: ../sidebar-footer.php:17
+msgid "Expand/Collapse Footer"
+msgstr ""
+
+#: ../single-portfolio.php:25
+msgid "Hide Content"
+msgstr ""
+
+#: ../single.php:29 ../template-archives.php:26 ../template-full-width.php:33
+msgid "Read more..."
+msgstr ""
+
+#: ../template-archives.php:34
+msgid "Last 30 Posts"
+msgstr ""
+
+#: ../template-archives.php:43
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../template-archives.php:49
+msgid "Archives by Subject:"
+msgstr ""
+
+#: ../template-contact.php:14
+msgid "Please enter your name."
+msgstr ""
+
+#: ../template-contact.php:15
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../template-contact.php:16
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: ../template-contact.php:17
+msgid "Please enter a message."
+msgstr ""
+
+#: ../template-contact.php:112
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: ../template-contact.php:120
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../template-contact.php:126
+msgid "Name:"
+msgstr ""
+
+#: ../template-contact.php:134
+msgid "Email:"
+msgstr ""
+
+#: ../template-contact.php:145
+msgid "Message:"
+msgstr ""
+
+#: ../template-contact.php:154
+msgid "Send Email"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:151
+msgid "Remove"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:327
+msgid "Add New"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:328
+#: ../framework/zilla-admin-functions.php:360
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:329
+#: ../framework/zilla-admin-functions.php:358
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:330
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:331
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:332
+#: ../framework/zilla-admin-functions.php:353
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:333
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:334
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:354
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:355
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:359
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:361
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:362
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:363
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:364
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: ../framework/zilla-admin-functions.php:411
+#, php-format
+msgid ""
+"<strong>There is a new version of the %s theme available.</strong> You have "
+"version %s installed. <a href=\"%s\">Update to version %s</a>."
+msgstr ""
+
+#: ../framework/zilla-admin-init.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: ../framework/zilla-admin-init.php:81 ../framework/zilla-admin-init.php:99
+#: ../framework/zilla-admin-page-update.php:10
+msgid "Theme Updates"
+msgstr ""
+
+#: ../framework/zilla-admin-init.php:96
+msgid ""
+"Theme Updates <span class=\"update-plugins count-1\"><span class=\"update-"
+"count\">1</span></span>"
+msgstr ""
+
+#: ../framework/zilla-admin-init.php:105
+#: ../framework/zilla-admin-page-options.php:39
+msgid "Support Forums"
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:77
+msgid "Insert"
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:115
+msgid "Create Featured Gallery"
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:123
+#: ../framework/zilla-admin-metaboxes.php:131
+msgid "Edit Featured Gallery"
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:168
+msgid "Save Featured Gallery"
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:178
+msgid "Saving..."
+msgstr ""
+
+#: ../framework/zilla-admin-metaboxes.php:244
+#: ../framework/zilla-admin-metaboxes.php:246
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:13
+#, php-format
+msgid "%s activated"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:23
+#: ../framework/zilla-admin-page-update.php:21
+#, php-format
+msgid ""
+"<strong>There is a new version of the %s theme available.</strong> You have "
+"version %s installed. Update to version %s"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:40
+msgid "More Themes"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:87
+msgid "Reset Options"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:88
+msgid "Save All Changes"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:119
+msgid "You do not have sufficient permissions to save these options."
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:133
+msgid "Settings saved"
+msgstr ""
+
+#: ../framework/zilla-admin-page-options.php:149
+msgid "You do not have sufficient permissions to reset these options."
+msgstr ""
+
+#: ../framework/zilla-admin-page-update.php:41
+msgid "Changelog"
+msgstr ""
+
+#: ../framework/zilla-admin-page-update.php:45
+msgid "<p>Error: Unable to fetch the changelog.</p>"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:32 ../includes/posttype-portfolio.php:76
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:75
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:96
+msgid "None"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:114
+#: ../includes/posttype-portfolio.php:127
+msgid "Sort Portfolios"
+msgstr ""
+
+#: ../includes/posttype-portfolio.php:128
+msgid ""
+"Click, drag, re-order. Repeat as neccessary. Portfolio at the top will "
+"appear first."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:13
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:14
+msgid "Input basic settings for this portfolio."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:20
+msgid "Display Gallery"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:21
+msgid "Shall the gallery be displayed?"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:27
+msgid "Display Audio"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:28
+#: ../includes/meta/portfolio-meta.php:35
+msgid "Shall the video be displayed?"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:34
+msgid "Display Video"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:47 ../includes/meta/post-meta.php:13
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:48
+msgid ""
+"Set up your gallery. All images attached to this portfolio will be included "
+"in the gallery."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:54
+#: ../includes/meta/portfolio-meta.php:58 ../includes/meta/post-meta.php:31
+#: ../includes/meta/post-meta.php:35
+msgid "Upload Images"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:55 ../includes/meta/post-meta.php:32
+msgid "Click to upload images."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:67 ../includes/meta/post-meta.php:91
+msgid "Video Settings"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:68
+msgid "These settings enable you to embed videos into your portfolio pages."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:74 ../includes/meta/post-meta.php:98
+msgid "Video Height"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:75 ../includes/meta/post-meta.php:99
+msgid "The video height (e.g. 500). Base the height value on width of 600px."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:81 ../includes/meta/post-meta.php:105
+msgid "M4V File URL"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:82 ../includes/meta/post-meta.php:106
+msgid "The URL to the .m4v video file"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:88 ../includes/meta/post-meta.php:112
+msgid "OGV File URL"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:89 ../includes/meta/post-meta.php:113
+msgid "The URL to the .ogv video file"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:95
+#: ../includes/meta/portfolio-meta.php:136 ../includes/meta/post-meta.php:119
+msgid "Poster Image"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:96 ../includes/meta/post-meta.php:120
+msgid "The preview image."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:102 ../includes/meta/post-meta.php:126
+msgid "Embedded Code"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:103 ../includes/meta/post-meta.php:127
+msgid ""
+"If you are using something other than self hosted video such as Youtube or "
+"Vimeo, paste the embed code here. Width is best at 600px with any height."
+"<br><br> This field will override the above."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:115 ../includes/meta/post-meta.php:139
+msgid "Audio Settings"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:116
+msgid "These settings enable you to embed audio into your portfolio pages."
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:122 ../includes/meta/post-meta.php:146
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:123 ../includes/meta/post-meta.php:147
+msgid "The URL to the .mp3 audio file"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:129 ../includes/meta/post-meta.php:153
+msgid "OGA File URL"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:130 ../includes/meta/post-meta.php:154
+msgid "The URL to the .oga, .ogg audio file"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:137 ../includes/meta/post-meta.php:161
+msgid "The preview image for this audio track"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:143
+msgid "Poster Image Height"
+msgstr ""
+
+#: ../includes/meta/portfolio-meta.php:144 ../includes/meta/post-meta.php:168
+msgid ""
+"The height of the poster image. Base the height value on width of 600px."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:14
+msgid "Set up your gallery."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:20
+msgid "Gallery Layout"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:21
+msgid "Should the gallery images be stacked or in a slideshow?"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:26
+msgid "Stacked"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:27
+msgid "Slideshow"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:44
+msgid "Quote Settings"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:45 ../includes/meta/post-meta.php:52
+msgid "Input your quote."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:51
+msgid "The Quote"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:58
+msgid "Quote Author"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:59
+msgid "Input the quote author"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:71
+msgid "Link Settings"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:72
+msgid "Input your link"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:78
+msgid "The Link"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:79
+msgid "Input your link."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:92
+msgid "These settings enable you to embed videos into your posts."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:140
+msgid "These settings enable you to embed audio into your posts."
+msgstr ""
+
+#: ../includes/meta/post-meta.php:160
+msgid "Audio Poster Image"
+msgstr ""
+
+#: ../includes/meta/post-meta.php:167
+msgid "Audio Poster Image Height"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:12
+msgid "SEO Settings"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:13
+msgid ""
+"These settings enable you to customize the SEO settings for this post/page."
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:19
+msgid "Title"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:20
+msgid "Most search engines use a maximum of 60 chars for the title."
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:26
+msgid "Description"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:27
+msgid "Most search engines use a maximum of 160 chars for the description."
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:33
+msgid "Keywords"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:34
+msgid "A comma separated list of keywords"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:40
+msgid "Meta Robots Index"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:41
+msgid "Do you want robots to index this page?"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:48
+msgid "Meta Robots Follow"
+msgstr ""
+
+#: ../includes/meta/seo-meta.php:49
+msgid "Do you want robots to follow links from this page?"
+msgstr ""
+
+#: ../includes/options/general-settings.php:11
+msgid "Plain Text Logo"
+msgstr ""
+
+#: ../includes/options/general-settings.php:12
+msgid ""
+"Check this box to enable a plain text logo rather than upload an image. Will "
+"use your site name."
+msgstr ""
+
+#: ../includes/options/general-settings.php:18
+msgid "Custom Logo Upload"
+msgstr ""
+
+#: ../includes/options/general-settings.php:19
+msgid "Upload a logo for your theme."
+msgstr ""
+
+#: ../includes/options/general-settings.php:26
+msgid "Display site description below logo"
+msgstr ""
+
+#: ../includes/options/general-settings.php:27
+msgid "Shall the site description be shown below the logo."
+msgstr ""
+
+#: ../includes/options/general-settings.php:33
+msgid "Custom Favicon Upload"
+msgstr ""
+
+#: ../includes/options/general-settings.php:34
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr ""
+
+#: ../includes/options/general-settings.php:41
+msgid "Contact Form Email Address"
+msgstr ""
+
+#: ../includes/options/general-settings.php:42
+msgid ""
+"Enter the email address where you'd like to receive emails from the contact "
+"form, or leave blank to use admin email."
+msgstr ""
+
+#: ../includes/options/styling-options.php:15
+msgid ""
+"Configure the visual appearance of you theme by selecting a stylesheet if "
+"applicable, choosing your overall layout and inserting any custom CSS "
+"necessary."
+msgstr ""
+
+#: ../includes/options/styling-options.php:19
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: ../includes/options/styling-options.php:20
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: ../includes/options/styling-options.php:28
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/options/styling-options.php:29
+msgid "Select a custom color accent"
+msgstr ""
+
+#: ../includes/options/styling-options.php:36
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/options/styling-options.php:37
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:39
+msgid "A widget that displays your Flickr photos."
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:50
+msgid "Custom Flickr Photos"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:125
+#: ../includes/widgets/widget-tweets.php:121
+#: ../includes/widgets/widget-video.php:117
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:130
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:135
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:143
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:151
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:22
+msgid "Custom Latest Tweets"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:25
+msgid "A new widget that displays your latest tweets"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:58
+msgid "There was an error grabbing the Twitter feed"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:126
+msgid "Twitter Username e.g. themezilla"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:131
+msgid "Number of tweets"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:133
+msgid "Feeds include replies and retweets"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:137
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:141
+msgid "Tweets are cached for 5 minutes to improve performance"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:192
+#: ../includes/widgets/widget-tweets.php:194
+#: ../includes/widgets/widget-tweets.php:196
+#: ../includes/widgets/widget-tweets.php:198
+msgid "Not properly configured, check settings"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:289
+#: ../includes/widgets/widget-tweets.php:290
+msgid "Twitter Widget Settings"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:326
+msgid "Insufficient permissions"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:335
+msgid ""
+"Twitter requires that you register an application in order to utilize their "
+"API. Directions to get the Consumer Key, Consumer Secret, Access Token, and "
+"Access Token Secret."
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:337
+msgid "Create a new Twitter application"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:338
+msgid "Fill in all fields on the create application page."
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:339
+msgid "Agree to rules, fill out captcha, and submit your application"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:340
+msgid ""
+"Copy the Consumer Key, Consumer Secret, Access Token, and Access Token "
+"Secret into the fields below"
+msgstr ""
+
+#: ../includes/widgets/widget-tweets.php:341
+msgid "Click the Save Changes button at the bottom of this page"
+msgstr ""
+
+#: ../includes/widgets/widget-video.php:38
+msgid "A widget that displays your YouTube or Vimeo Video."
+msgstr ""
+
+#: ../includes/widgets/widget-video.php:49
+msgid "Custom Video Widget"
+msgstr ""
+
+#: ../includes/widgets/widget-video.php:122
+msgid "Embed Code:"
+msgstr ""
+
+#: ../includes/widgets/widget-video.php:127
+msgid "Short Description:"
+msgstr ""

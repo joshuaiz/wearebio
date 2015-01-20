@@ -701,6 +701,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/refresh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5337,
+		"inputAbbreviatedPath": "\/refresh.png",
+		"outputAbbreviatedPath": "\/refresh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/rtl.css": {
 		"fileType": 16,
 		"ignore": 0,

@@ -75,7 +75,7 @@
 
 			<?php get_sidebar(); ?>
 
-			<p class="copyright">&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>.</p>
+			<p class="copyright">&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>">BioDesign</a>. All rights reserved.</p>
 			
 			
 

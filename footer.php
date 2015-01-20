@@ -19,9 +19,9 @@
 	<script>
 	jQuery(document).ready(function($){
 		$('.col').matchHeight();
-	});
-			
+	});	
 	</script>
+
 
 	<!-- Theme Hook -->
 	<?php wp_footer(); ?>

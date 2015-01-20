@@ -8,6 +8,23 @@
  */
 ?>
 
+<?php
+session_start();
+include("/captcha/simple-php-captcha.php");
+$_SESSION['captcha'] = simple_php_captcha( array(
+	'min_length' => 5,
+	'max_length' => 5,
+	'backgrounds' => array(image.png', ...),
+	'fonts' => array('font.ttf', ...),
+	'characters' => 'ABCDEFGHJKLMNPRSTUVWXYZabcdefghjkmnprstuvwxyz23456789',
+	'min_font_size' => 28,
+	'max_font_size' => 28,
+	'color' => '#444',
+	'angle_min' => 0,
+	'angle_max' => 10,
+));
+?>
+
 <?php 
 
 /* Edit the error messages here --------------------------------------------------*/
@@ -16,7 +33,6 @@ $emailError = __( 'Please enter your email address.', 'zilla' );
 $emailInvalidError = __( 'You entered an invalid email address.', 'zilla' );
 $commentError = __( 'Please enter a message.', 'zilla' );
 /*--------------------------------------------------------------------------------*/
-
 
 $errorMessages = array();
 if(isset($_POST['submitted'])) {
@@ -48,7 +64,7 @@ if(isset($_POST['submitted'])) {
 			}
 		}
 			
-		if(!isset($hasError)) {
+		if(!isset($hasError) && isset($_SESSION['simpleCaptchaAnswer']) && $_POST['captchaSelection'] == $_SESSION['simpleCaptchaAnswer']) {
 			$emailTo = zilla_get_option('general_contact_email');
 			if (!isset($emailTo) || ($emailTo == '') ){
 				$emailTo = get_option('admin_email');
@@ -59,7 +75,7 @@ if(isset($_POST['submitted'])) {
 				 a number of web hosts' anti-spam measures. If you want the from field to be the
 				 user sending the email, please uncomment the following line of code.
 			*/
-			// $headers[] = 'From: ' . $name . ' <' . $email . '>';
+			$headers[] = 'From: ' . $name . ' <' . $email . '>';
 			$headers[] = 'Reply-To: ' . $email;
 			
 			wp_mail( $emailTo, $subject, $body, $headers );
@@ -109,7 +125,7 @@ if(isset($_POST['submitted'])) {
 			<?php if(isset($emailSent) && $emailSent == true) { ?>
 
 				<div class="thanks">
-					<p><?php _e('Thanks, your email was sent successfully.', 'zilla') ?></p>
+					<p><?php _e('Thank you for contacting us, we will get back to you shortly.', 'zilla') ?></p>
 				</div>
 
 			<?php } else { ?>

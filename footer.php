@@ -17,7 +17,10 @@
 	<?php get_sidebar( 'footer' ); ?>
 
 	<script>
+	
+
 	jQuery(document).ready(function($){
+
 		$('.col').matchHeight();
 	});	
 	</script>
@@ -25,6 +28,12 @@
 
 	<!-- Theme Hook -->
 	<?php wp_footer(); ?>
+
+	<script>
+	jQuery(document).ready(function($){
+		$('.no-fouc').removeClass('no-fouc');
+	});
+	</script>
 	<?php zilla_body_end(); ?>
 
 <!--END body-->

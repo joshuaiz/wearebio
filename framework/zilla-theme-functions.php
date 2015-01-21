@@ -252,37 +252,37 @@ add_action('zilla_meta_head', 'zilla_add_version_meta');
  * @param array $classes The current body classes
  * @return array The new body classes
  */
-if ( !function_exists( 'zilla_browser_body_class' ) ) {
-	function zilla_body_classes($classes) {
-	    // Add our browser class
-		global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
+// if ( !function_exists( 'zilla_browser_body_class' ) ) {
+// 	function zilla_body_classes($classes) {
+// 	    // Add our browser class
+// 		global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
 	
-		if($is_lynx) $classes[] = 'lynx';
-		elseif($is_gecko) $classes[] = 'gecko';
-		elseif($is_opera) $classes[] = 'opera';
-		elseif($is_NS4) $classes[] = 'ns4';
-		elseif($is_safari) $classes[] = 'safari';
-		elseif($is_chrome) $classes[] = 'chrome';
-		elseif($is_IE){ 
-			$classes[] = 'ie';
-			if(preg_match('/MSIE ([0-9]+)([a-zA-Z0-9.]+)/', $_SERVER['HTTP_USER_AGENT'], $browser_version)) $classes[] = 'ie'.$browser_version[1];
-		} else $classes[] = 'unknown';
+// 		if($is_lynx) $classes[] = 'lynx';
+// 		elseif($is_gecko) $classes[] = 'gecko';
+// 		elseif($is_opera) $classes[] = 'opera';
+// 		elseif($is_NS4) $classes[] = 'ns4';
+// 		elseif($is_safari) $classes[] = 'safari';
+// 		elseif($is_chrome) $classes[] = 'chrome';
+// 		elseif($is_IE){ 
+// 			$classes[] = 'ie';
+// 			if(preg_match('/MSIE ([0-9]+)([a-zA-Z0-9.]+)/', $_SERVER['HTTP_USER_AGENT'], $browser_version)) $classes[] = 'ie'.$browser_version[1];
+// 		} else $classes[] = 'unknown';
 	
-		if($is_iphone) $classes[] = 'iphone';
+// 		if($is_iphone) $classes[] = 'iphone';
 		
-		// Add the post title
-		if( is_singular() ) {
-    		global $post;
-    		array_push( $classes, "{$post->post_type}-{$post->post_name}" );
-    	}
+// 		// Add the post title
+// 		if( is_singular() ) {
+//     		global $post;
+//     		array_push( $classes, "{$post->post_type}-{$post->post_name}" );
+//     	}
     	
-    	// Add 'zilla'
-    	array_push( $classes, "zilla" );
+//     	// Add 'zilla'
+//     	array_push( $classes, "zilla" );
     	
-		return $classes;
-	}
-}
-add_filter('body_class','zilla_body_classes');
+// 		return $classes;
+// 	}
+// }
+// add_filter('body_class','zilla_body_classes');
 
 
 /**

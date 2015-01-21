@@ -205,10 +205,22 @@ body {
 	line-height: 24px;
 	font-weight: 300;
 	margin: 0;
-	// text-rendering: optimizeLegibility;
+	// text-rendering: optimizeLegibility; // better with this off
 	word-wrap: break-word;
 	// -webkit-font-smoothing: antialiased;
+}
+
+.ua-safari {
 	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.ua-chrome {
+	-webkit-font-smoothing: antialiased; // fixes thicker fonts in Chrome
+}
+
+.ua-gecko {
+	-moz-osx-font-smoothing: grayscale; // fixes thicker fonts in Firefox
+	#menu-work li a { font-size: .99em; }
 }
 
 .hidden { display: none; }
@@ -217,13 +229,12 @@ body {
 	display: inline;
 	float: left;
 	margin-right: 1.5em;
-	// margin-top: 1em;
 }
+
 .alignright {
 	display: inline;
 	float: right;
 	margin-left: 1.5em;
-	// margin-top: 1em;
 }
 
 .aligncenter {
@@ -279,7 +290,7 @@ h6 {
 	padding: 0;
 }
 
-.safari {
+.ua-safari, .ua-chrome {
 	h1,
 	h2,
 	h3,
@@ -378,8 +389,6 @@ ul {
 
 }
 
-// #logo { padding: 0 30px; }
-
 #logo {
     border-bottom: none;
 	font-size: 2.5em;
@@ -387,23 +396,19 @@ ul {
 	color: #E08A1E;
 	font-weight: bold;
 	font-family: 'Proxima N W01 Smbd','Helvetica Neue', Helvetica, sans-serif;
+	&:hover, &:focus {
+		text-decoration: none; 
+		color: #34495E;
+	}
+	span {
+		color: #EF4836;
+		&:hover, &:focus {
+			color: #34495E; 
+		}
+	}
+	span.period { color: #0088cc; }
+	img { vertical-align: top; }
 }
-
-#logo:hover { 
-	text-decoration: none; 
-	color: #34495E;
-}
-
-#logo span { color: #EF4836; }
-
-#logo span.period { color: #0088cc; }
-
-#logo span:hover { 
-	color: #34495E; 
-
-}
-
-#logo img { vertical-align: top; }
 
 #tagline { padding-top: 5px; }
 
@@ -668,7 +673,6 @@ input[type="reset"]:active { color: #444444; }
 .search .entry-title { 
 	margin: 45px 0 20px; 
 	margin: 4.5rem 0 2rem;
-	// text-transform: uppercase;
 }
 
 .single .entry-title { 
@@ -730,7 +734,6 @@ input[type="reset"]:active { color: #444444; }
 }
 
 .post-media a {
-	// background: #f23e2f url(images/pattern.png) 0 0 repeat;
 	display: block;
 }
 
@@ -799,7 +802,6 @@ input[type="reset"]:active { color: #444444; }
 
 .zilla-gallery .slide-caption {
 	background: #f23e2f;
-	// background: rgba(242,62,47,0.9) url(images/pattern.png) 0 0 repeat;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1092,7 +1094,6 @@ iframe {
 	margin: 0;
 	position: absolute;
 	text-align: center;
-	// text-transform: uppercase;
 	top: 44.69%;
 	width: 100%;
 } 
@@ -1160,20 +1161,11 @@ iframe {
 
 .single-portfolio .portfolio-description a {
 	color: #FFB61E;
-	// font-weight: 600;
-	// color: #555;
 }
 
 .single-portfolio .entry-content {
-	// background: #f23e2f;s
-	// background: #EF4836;
 	background: #F22613;
-	// background: rgba(242,62,47,0.9);
-	// background: rgba(239,72,54,0.9);
 	background: rgba(242,38,19, 0.96);
-	// background: rgba(242,62,47,0.9) url(../images/pattern.png) repeat;
-	// background: rgba(4,79,103,0.54);
-	// background: rgba(0,136,204,0.9);
 	color: #ffffff;
 	z-index: 995;
 }
@@ -1196,8 +1188,6 @@ iframe {
 	color: #ffffff;
 	font-size: 14px;
 	font-size: 1.4rem;
-	// margin-left: 15px;
-	// margin-left: 1.5rem;
 	padding-left: 15px;
 	padding-left: 1.5rem;
 	position: relative;
@@ -1226,156 +1216,6 @@ iframe {
 .lt-ie9 .project-content .show-hide-content { display: none; }
 
 .single-portfolio .post-password-required .entry-content { position: relative; }
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	7.	Comments
-/*-----------------------------------------------------------------------------------*/
-
-#comments { 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	clear: both; 
-	max-width: 800px;
-	padding: 0 50px 0;
-	width: 66.6667%; /* 800 / 1200 */
-}
-
-.page #comments {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.comments-title {
-	font-size: 20px;
-	font-size: 2rem;
-	padding-top: 48px;
-	padding-top: 4.8rem;
-	text-transform: uppercase;
-}
-
-.pings-title {}
-
-.commentlist {
-	margin: 45px 0 40px 0;
-	margin: 4.5rem 0 4rem 0;
-	list-style-type: none;
-}
-
-.pinglist {
-	margin: 20px 0 40px 30px;
-	list-style-type: decimal;
-}
-
-.comment { 
-	margin-top: 45px; 
-	margin-top: 4.5rem;
-}
-
-.commentlist .children { 
-	list-style-type: none; 
-	margin-left: 65px;
-}
-
-.avatar { border-radius: 4px; }
-
-.comment .avatar {
-	float: left;
-	margin: 0 18px 0 0;
-}
-
-.comment-author {
-	font-size: 16px;
-	font-size: 1.6rem;
-	padding-top: 1px;
-	text-transform: uppercase;
-}
-
-.comment-meta { 
-	color: #b2b2b2;
-	font-size: 12px;
-	font-size: 1.2rem;
-	margin-bottom: 19px; 
-	margin-bottom: 1.9rem;
-	margin-top: 3px;
-	margin-top: 0.3rem;
-	text-transform: uppercase;
-}
-
-.comment-meta a { color: #b2b2b2; }
-
-.comment-author-admin {
-	background: #fbfbfb!important;
-	border: #efefef;
-}
-
-.comment-author cite { font-style: normal; }
-
-.nocomments {
-	text-align: center;
-	padding: 20px;
-}
-
-.comment-body ul { list-style-type: disc; }
-
-.comment-body ol { list-style-type: decimal; }
-
-#respond {
-	background: #ffffff;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-left: -50px;
-	margin-right: -50px;
-	padding: 49px 50px 14px;
-}
-
-.page #respond {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.comment-reply-title { 
-	font-size: 20px;
-	font-size: 2rem;
-	text-transform: uppercase; 
-}
-
-#commentform { margin-top: 20px; }
-
-#commentform p { 
-	line-height: 40px; 
-	overflow: hidden;
-}
-
-#commentform input { 
-	float: left;
-	margin-right: 10px; 
-	max-width: 430px;
-	width: 100%;
-}
-
-#commentform input[type="submit"] { 
-	clear: both;
-	float: none;
-	margin-top: 5px;
-	margin-top: 0.5rem;
-	width: auto; 
-}
-
-#commentform label {
-	color: #222222;
-	text-transform: uppercase;
-}
-
-#commentform textarea { 
-	max-width: 100%;
-	min-width: 100%;
-	width: 100%; 
-}
-
-#commentform .required { color: #f23e2f; }
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -2112,7 +1952,6 @@ label.error { color: red; }
 	.footer-column {
 		float: none;
 		margin: 20px;
-		// max-width: 280px;
 		width: 100%;
 	}
 
@@ -2135,7 +1974,6 @@ only screen and (min-resolution : 2dppx) {
 	.portfolio-feed .portfolio > a,
 	.single-portfolio .entry-content,
 	.zilla-gallery .slide-caption {
-		// background-image: url(../images/pattern@2x.png);
 		-webkit-background-size: 3px 3px;
 		background-size: 3px 3px;
 	}

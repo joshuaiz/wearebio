@@ -16,12 +16,19 @@
 <!-- BEGIN head -->
 <head>
 
+
+
 	<!-- Meta Tags -->
 	<meta charset="utf8_unicode_ci">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<![endif]-->
+
+	<style type="text/css">
+		body: background: #D2D7D3;
+  		.no-fouc {display: none;}
+	</style>
 	<?php zilla_meta_head(); ?>
 
 	<!-- Title -->
@@ -87,5 +94,5 @@
 		<?php zilla_header_after(); ?>
 
 		<!--BEGIN #content -->
-		<div id="content" class="content col">
+		<div id="content" class="content col no-fouc">
 		<?php zilla_content_start(); ?>

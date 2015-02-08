@@ -448,6 +448,7 @@ ul {
 
 .mobile-menu ul { margin-left: 15px; }
 
+.menu ul li a { font-size: .97em; }
 
 /*-----------------------------------------------------------------------------------*/
 /*	4.	Main Content Styles
@@ -455,7 +456,7 @@ ul {
 
 #content { background: #2C3E50; }
 
-.about #content {
+.about #content, .osseous #content {
 	background: #F2F1EF;
 }
 
@@ -1426,6 +1427,7 @@ label.error { color: red; }
 .widget ul a { 
 	color: #626262; 
 	line-height: 23px;
+	font-size: .97em;
 }
 
 .widget .current-cat > a,

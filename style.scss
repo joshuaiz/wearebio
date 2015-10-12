@@ -373,7 +373,7 @@ ul {
 	text-decoration: none;
 }
 
-.about {
+.about, .bio-design {
 	.entry-content {
 		img { width: 150px; height: 150px; }
 	}
@@ -456,7 +456,7 @@ ul {
 
 #content { background: #2C3E50; }
 
-.about #content, .osseous #content {
+.about #content, .osseous #content, .bio-design #content, .plans #content, .cart #content, .checkout #content {
 	background: #F2F1EF;
 }
 
@@ -561,6 +561,52 @@ td {
 	padding: 5px;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.plans {
+	.gform_wrapper {
+		h3 {
+			font-weight: 700;
+			margin: 1em 0;
+		}
+		.top_label .gfield_label {
+			font-weight: 700 !important;
+		}
+		.gfield_radio li {
+			font-size: 1.443em;
+			font-weight: 500;
+			color: #0088cc;
+		}
+		.ginput_total {
+			font-size: 2.223em;
+			font-weight: 700;
+		}
+		#gform_submit_button_2 {
+			background: #0088cc;
+    		padding: 1em 2.2em;
+    		font-size: 1.8em;
+    		color: #ffffff;
+    		&:hover, &:active {
+    			background: darken(#0088cc, 16%);
+    		}
+		}
+		.gfield_total label {
+			font-size: 1.74em;
+		}
+	}
+	ul.list-square {
+		list-style-type: square !important;
+		li {
+			padding: 3px 0;
+			font-size: 1.2em;
+		}
+		li:nth-of-type(1) {
+			margin-top: 10px;
+		}
+	}
+	p.small {
+		margin: 1.5em 0;
+	}
 }
 
 /* Common Form Elements --------------------------------------------------*/
@@ -720,6 +766,14 @@ input[type="reset"]:active { color: #444444; }
 
 .sticky,
 .bypostauthor {}
+
+.callout {
+	font-size: 1.4em;
+    border-left: 4px solid #EF4836;
+    padding-left: 1em;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* Media Elements --------------------------------------------------------*/
 .post-media {

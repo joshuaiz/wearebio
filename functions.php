@@ -172,7 +172,7 @@ if ( !function_exists( 'zilla_enqueue_scripts' ) ) :
  */
 function zilla_enqueue_scripts() {
 	/* Register our scripts -----------------------------------------------------*/
-	wp_register_script('validation', 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', 'jquery', '1.9', true);
+	wp_register_script('validation', '//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', 'jquery', '1.9', true);
 	wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', '', '2.6.2', false);
 	wp_register_script('cycle2', get_template_directory_uri() . '/js/jquery.cycle2.min.js', 'jquery', '2', true);
 	wp_register_script('isotope', get_template_directory_uri() . '/js/jquery.isotope.min.js', 'jquery', '1.5.25', true);
@@ -723,5 +723,24 @@ function filter_ptags_on_images($content){
 }
 
 add_filter('the_content', 'filter_ptags_on_images');
+
+
+// add_action( 'gform_post_add_subscription_payment', function ( $entry ) {
+//     if ( rgar( $entry, 'payment_status' ) == 'Active' ) {
+//         $feed       = gf_stripe()->get_payment_feed( $entry );
+//         $feed_name  = rgars( $feed, 'meta/feedName' );
+//         $feed_names = array( 'Subscription' ); // update this line
+
+//         if ( in_array( $feed_name, $feed_names ) ) {
+//             global $wpdb;
+//             $count = $wpdb->get_var( $wpdb->prepare( "SELECT count(id) FROM {$wpdb->prefix}gf_addon_payment_transaction WHERE lead_id=%d", $entry['id'] ) );
+
+//             if ( $count == 6 ) { // update this line
+//                 $result = gf_stripe()->cancel( $entry, $feed );
+//                 gf_stripe()->log_debug( "gform_post_add_subscription_payment: Cancelling subscription (feed #{$feed['id']} - {$feed_name}) for entry #{$entry['id']}. Result: " . print_r( $result, 1 ) );
+//             }
+//         }
+//     }
+// } );
 
 ?>
